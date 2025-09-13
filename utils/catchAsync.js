@@ -3,5 +3,3 @@ export default (fn) => {
     fn(req, res, next).catch(next);
   };
 };
-//   });
-// };

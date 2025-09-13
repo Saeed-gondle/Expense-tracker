@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import { type } from 'os';
 let budgetSchema = new mongoose.Schema(
   {
     title: {

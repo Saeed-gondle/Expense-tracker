@@ -12,7 +12,7 @@ import { fileURLToPath } from 'url';
 const app = express();
 app.use(express.json());
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello From Express!');
 });
 app.use('/api/v1/transactions', transcationRoute);
 app.use('/api/v1/categories', categoryRoute);
