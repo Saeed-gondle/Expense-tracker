@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "nodemailer": "^7.0.6",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "pug": "^3.0.3",
+    "validator": "^13.15.15"
+  },
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "$env:NODE_ENV=production;nodemon app.js",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

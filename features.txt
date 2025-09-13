@@ -1,0 +1,41 @@
+Core NodeJS API Features for Expense Tracker
+Based on feateres-to-build.md, the core API features you should build for your NodeJS Expense Tracker include:
+
+1. Authentication APIs
+User registration endpoint
+Login endpoint with JWT token generation
+Password reset endpoints
+Logout functionality (token invalidation)
+Secure routes with JWT middleware
+
+2. Transaction Management APIs
+CRUD endpoints for expenses and income
+Create transaction
+Read transactions (single and list)
+Update transaction
+Delete transaction
+Category management endpoints
+Endpoints for filtering transactions by date, category, etc.
+
+3. Budget Management APIs
+Create/update monthly budget limits
+Get budget status (remaining amounts)
+Budget alerts/notifications endpoints
+Category-specific budget management
+
+4. Analytics & Reporting APIs
+Summary statistics endpoints (totals, balances)
+Data aggregation for charts/visualizations
+Time-based reporting (weekly, monthly, yearly)
+Category-based spending analysis
+
+5. User Profile & Settings APIs
+User profile management
+Preferences and settings
+Data export functionality (CSV/JSON)
+Implementation Priority
+The document suggests starting with an MVP consisting of:
+
+Authentication + Security
+Basic CRUD for transactions
+Simple budgeting features

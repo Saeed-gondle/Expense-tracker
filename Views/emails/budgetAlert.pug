@@ -1,0 +1,18 @@
+extends baseEmail
+
+block content
+  h1 Budget Alert!
+  p Hi #{firstName},
+  p We wanted to let you know that you've exceeded your budget limit in one or more categories.
+  p This is a friendly reminder to check your spending and make any necessary adjustments to stay on track with your financial goals.
+  table.btn.btn-primary(role='presentation' border='0' cellpadding='0' cellspacing='0')
+    tbody
+      tr
+        td(align='left')
+          table(role='presentation' border='0' cellpadding='0' cellspacing='0')
+            tbody
+              tr
+                td
+                  a(href=`${url}`, target='_blank') View Your Budget
+  p Remember, tracking your expenses consistently is the key to financial success!
+  p - The Expense Tracker Team
